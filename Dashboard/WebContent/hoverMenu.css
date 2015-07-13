@@ -1,0 +1,36 @@
+<style>
+	.hoverUL 
+		{
+		  list-style-type: none;
+		  padding: 0;
+		  margin: 0;
+		  overflow: hidden;
+		}
+		
+		.hoverLI 
+		{
+		  list-style-type: none;
+		  font-size: 1.2em;
+		  background-color: grey;
+		  float: left;
+		  padding: 0;
+		}
+
+		.hoverLI a:link, a:visited 
+		{
+		  text-decoration: none;
+		
+		  width: 120px;
+		  height: 30px;
+		  color: black;
+		  display: block;
+		  font-weight: bold;
+		  text-align: center;
+		  transition: .3s background-color;
+		}
+		
+		.hoverLI a:hover, a:active
+		{
+			background-color: white;
+		}
+ 	</style>
